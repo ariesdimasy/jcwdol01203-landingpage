@@ -1,0 +1,84 @@
+.container { 
+  width: 70%;
+  margin-left: auto;
+  margin-right: auto;
+  height: 100%;
+  /* border:1px solid black; */
+}
+
+.navbar { 
+  width: 100%;
+  height: 80px;
+  background-color: white;
+}
+
+.navbar a.link-logo { 
+  width: 64px;
+  height: 32px;
+  margin-top: 22px;
+    /*margin-right: auto;
+    margin-bottom: 0px;
+    margin-left: 0px */
+}
+
+.navbar .logo { 
+  width: 64px;
+  height: 32px;
+  margin-top: 22px;
+}
+
+.hero-section{
+  height:699px;
+  background-color: #FDD460;
+  
+}
+
+.hero-section .container { 
+  display: flex;
+  flex-direction: row;
+}
+
+.hero-section .left-side { 
+  width: 45%;
+  background-image: url("./../public/hero-profile.jpg");
+  background-size: cover;
+  height: 100%;
+}
+
+.hero-section .right-side { 
+  width: 54%;
+  /* border: 1px solid darkgreen; */
+  height: 100%;
+}
+
+.hero-section .right-side .text { 
+  display: block;
+  /* border:1px solid black; */
+  width: 80%;
+  height: 80%;
+  vertical-align: center;
+}
+
+.hero-section .right-side .text .hello {
+  
+  background-color: white;
+  min-height: 119px;
+  margin: 0;
+}
+
+.hero-section .right-side .text .hello .box {
+  font-family: Oswald, sans-serif !important;
+  padding:20px;
+  font-size: 4.5rem;
+  text-transform: uppercase;
+  font-weight: 700;
+}
+
+.hero-section .right-side .introduction { 
+  font-size: 3.75rem;
+  letter-spacing: normal;
+  font-family: Montserrat, sans-serif;
+  font-weight: 400;
+  text-transform: none;
+  margin: 14px 41px 0 0;
+}
