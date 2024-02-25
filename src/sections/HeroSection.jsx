@@ -3,16 +3,19 @@ export default function HeroSection() {
         <div className="container">
             <div className="left-side"></div>
             <div className="right-side">
-                <div className="text">
-                    <div className="hello">
-                        <div className="box">
-                            HELLO !
-                        </div>
-                    </div>
-                    <div className="introduction">
-                        Iam Aries Dimas a Web Development Lecturer
-                    </div>
+                <div className="hello">
+                    HELLO!
                 </div>
+                <div className="introduction">
+                    Iam Aries Dimas a Web Development Lecturer
+                </div>
+                <div className="freepik">
+                    Image from <a href='#'>FREEPIK</a>
+                </div>
+                <a href="#" className="read-more">
+                    READ MORE
+                </a>
+                
             </div>
         </div>
     </section>)

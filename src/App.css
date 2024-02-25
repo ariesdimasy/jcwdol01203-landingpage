@@ -6,6 +6,15 @@
   /* border:1px solid black; */
 }
 
+.section-title { 
+  font-size: 3.75rem;
+  font-weight: 700;
+  text-transform: uppercase;
+  text-align: center;
+  margin-top: 40px;
+  margin-bottom: 10px;
+}
+
 .navbar { 
   width: 100%;
   height: 80px;
@@ -46,39 +55,121 @@
 }
 
 .hero-section .right-side { 
-  width: 54%;
-  /* border: 1px solid darkgreen; */
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  width: 40%;
   height: 100%;
+ 
 }
 
-.hero-section .right-side .text { 
-  display: block;
-  /* border:1px solid black; */
-  width: 80%;
-  height: 80%;
-  vertical-align: center;
-}
-
-.hero-section .right-side .text .hello {
-  
+.hero-section .right-side .hello {
+  display: inline-block;
   background-color: white;
-  min-height: 119px;
-  margin: 0;
-}
-
-.hero-section .right-side .text .hello .box {
+  padding: 15px;
   font-family: Oswald, sans-serif !important;
-  padding:20px;
   font-size: 4.5rem;
   text-transform: uppercase;
   font-weight: 700;
+
 }
 
 .hero-section .right-side .introduction { 
-  font-size: 3.75rem;
+  font-size: 3rem;
   letter-spacing: normal;
   font-family: Montserrat, sans-serif;
   font-weight: 400;
   text-transform: none;
   margin: 14px 41px 0 0;
+}
+
+.hero-section .right-side .freepik { 
+  text-transform: uppercase;
+  letter-spacing: 6px;
+  font-size: 1rem;
+  margin-top: 10px;
+}
+
+.freepik a { 
+  color: black;
+}
+
+.hero-section .read-more { 
+  background-color: white;
+  text-transform: uppercase;
+  text-decoration: none;
+  color: black;
+  font-weight: 700;
+  margin: 30px auto 0 0;
+  padding: 15px 52px;
+  display: inline-block;
+  letter-spacing: 4px;
+  border:2px solid black ;
+  font-family: Montserrat, sans-serif;
+}
+
+.profile-section{
+  height: 600px;
+  text-align: center;
+  padding-bottom: 40px;
+}
+
+.profile-section p.subtitle {
+  font-size: 20px;
+  letter-spacing: 2px;
+}
+
+.profile-section .column { 
+  display: flex;
+  flex-direction: row;
+  margin-top: 100px;
+}
+
+.profile-section .about-me { 
+  width: 22%;
+}
+
+.profile-section h3 {
+  text-align: left;
+  letter-spacing: 2px;
+  margin-bottom: 20px;
+  font-weight: 500;
+  font-size: 2rem;
+}
+
+.profile-section .about-me p {
+  letter-spacing: 2px;
+  text-align: left;
+  margin-bottom: 20px;
+  line-height: 2rem;
+  font-size: 18px;
+}
+
+.profile-section .about-me a {
+  color: black;
+}
+
+.profile-section .image{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+
+  width: 56%;
+}
+
+.profile-section .image .my-image { 
+  width: 250px;
+  height: 250px;
+ 
+  margin-left: auto;
+  margin-right: auto;
+  background-image: url("./../public/hero-profile.jpg");
+  background-size: cover;
+  object-fit: cover;
+  background-repeat: no-repeat;
+  border-radius: 50%;
+}
+
+.profile-section .contact {
+  width: 22%;
 }
